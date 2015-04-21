@@ -1,0 +1,154 @@
+
+.img-size {
+	max-width: 256px;
+	padding-top: 16px;
+}
+
+
+.background-img {
+  background-attachment: scroll !important;
+  background-image: url(../img/devices2.jpg) !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.text-width {
+	max-width: 720px;
+	
+}
+
+.logo {
+  float: left;
+  height: 50px;
+  width: 50px;
+  top: -5px;
+  margin-right: 10px;
+  display: inline;
+  position: relative;
+  -webkit-transition: all ease .7s;
+  -moz-transition: all ease .7s;
+  transition: all ease .7s;
+}
+
+@media only screen and (max-width: 767px) {
+
+.container-header {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+	
+.background-img {
+  background-attachment: scroll !important;
+  background-image: url(../img/portfolio/devices-mobile.jpg) !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+	
+.logo {
+  float: left;
+  height: 30px;
+  width: 30px;
+  top: 3px;
+  left: 16px;
+  display: inline;
+  position: relative;
+  -webkit-transition: all ease .7s;
+  -moz-transition: all ease .7s;
+  transition: all ease .7s;
+}
+	
+}
+
+@media only screen and (max-width: 1200px) {
+	
+.text-width {
+	max-width: 720px;
+	margin:0 auto;
+}
+	
+	
+}
+
+.white {
+	color: white;
+}
+.red {
+	  color: #D6220F;
+}
+
+.btn-outline1 {
+	color: #932418;
+	font-size: 20px;
+	border: solid 2px #932418;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+}
+.btn-outline1:focus,
+.btn-outline1:hover {
+	color: white;
+	font-size: 20px;
+	border: solid 2px #932418;
+	background: #932418;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+}
+
+.welcome{
+	
+	 opacity: 1 !important;
+	-webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .7s;
+}
+
+.footer-contact {
+	color: white;
+}
+
+.footer-contact:hover,
+.footer-contact:active {
+	color: white;
+}
+
+.divider {
+    /* text-align: center; */
+  height: 41px;
+  margin: auto;
+  width: 230px;
+}
+
+.divider hr {
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+	border-top: solid 5px;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.down {
+  top: 7px;
+  position: relative;
+}
+
+#welcome {
+	font-size: 4rem;
+	padding-bottom: 10px;
+}
+.navbar {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  background-image: url('../img/portfolio/white-transparent.png');
+  background-color: transparent !important;
+}
